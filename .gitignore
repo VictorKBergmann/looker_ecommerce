@@ -1,0 +1,19 @@
+# dbt-generated directories and files
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# Other common exclusions
+.DS_Store
+.env
+.idea/
+.vscode/
+
+# Ignore Temporary Files but Keep Database
+*.wal
+*.tmp/
+*.duckdb
+
+#python venv
+/venv
